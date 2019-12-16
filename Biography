@@ -57,32 +57,78 @@
             - Spoke to Lisa from De Novo at the MLRI meeting that I went to for the LIT project but I asked her about this as well: She also agreed that there was not a tool similar to this and said that she would find the idea 
             useful for her interns or students who need to learn how to write a brief for immigration law. She said the same as Ragini that now briefs are shared via email but there is not a way to streamline the process of 
             creating a brief. She said formatting the brief is difficult because of the definition of a refugee and the different elements that need to be proved. 
+     
 
 3. Ideation & Prototyping 
 
       Considers and weighs the costs & benefits of multiple techinical solutions 
             - Brief Automation Tool 
                   Pros: 1.Secondary source for well-founded fear claim 2.Efficient way to start a brief 3.Formatting is easier 4.Took me 6 hours to finish a first draft but most of that was done with the bot because my final brief was 12 pages this is 9 pages.  
-                  Cons: 1.Client information storage 2.Is it truly customizable? 3.  4. 5.  
+                  Cons: 1.Client information storage 2.Is it truly customizable? 3. Afterwards someone needs to keep track of asylum law changes 
       Creates prototyping only after considering at least three alternatives
+      	    - Could just have a template that has blanks that people can manually input on word 
+	    - Create a PDF with fillable blanks - however this would make it difficult to change the rest of the document 
+	    - Downloadable Word document with full redacted brief that someone could edit - but how would you get this to the people? Not as easy as an automated bot
+	    
+        An automated bot not only gives people a word document but one that pertains to them and is formatted the way a brief should be. 
       
 4. User Testing 
       Users tested: Two clinic students, Lisa from De Novo, and my roommate took the google form after using the bot and provided feedback. 
-      
+      Initial Feedback Recorded here cause I didn't initially have a google form but then had them look at the final version on December 16 with a google form
+      	Feedback on November 12, 2019 - Roommate who used to work for Immigration Non-Profit 
+		- "I'm confused as to what the bot is about. Maybe put a clearer title"
+		- "I do like that it gives me a document that I can download"
+		- "The dates need to be changed as well" 
+		- Suggestions and Conclusion from her: "I like the idea but I think it needs to have more questions and be more customizable. 
+	Feedback on November 13, 2019 - Two Immigration Clinic Students took it on my laptop on vdi and filled out their client info. 
+		- "this was helpful as a secondary resource of LGBTQ asylum law" 
+		- "It would decrease time taken on writing the first draft of briefs" 
+		- "I like this idea especially since all the cases this semester were LGBTQ based asylum cases" 
+		- "Maybe have a disclaimer on there about the fact that you can't be responsible for updating the legal information/citations" 
+		- "Split up the client name since sometimes we use only their first name. We don't use the full name all throughout the brief"
+		- "Very helpful idea, we can't wait to test it out later"
+		
+      Sent a google Form to Roommate, Clinic Students and Lisa from De Novo about the final version - all got back to me the same day 
+      		Questionairre Results Round Two: https://github.com/kishahraj/ctl_final-/blob/master/Brief%20Automation%20Questionnaire%20.csv
 5. Refinement 
 
+      After Round 1 Feedback 
+      	- Added the date as a variable. 
+	- Added a disclaimer and described the goals of the project and what users should expect 
+	- Include in the disclaimer that they should cite check 
+	- Added variables Client First Name, Client Last Name 
+      
+      After Round 2 Feedback 
+      	- Added more variables that were suggested in round two of feedback: Particular social group, pronoun etc.  
+      	- Analyzed a current LGBTQ asylum brief: Counted the occurrences of finalized variables after Round two of user feedback 
+     	- https://github.com/kishahraj/ctl_final-/blob/master/Variable%20Frequency.png
+     	- as a result of the above I changed the order of the questioning and because people were concerned about client information I added that they can put in whatever information they feel comfortable
+	including as a disclaimer. Therefore, they can input initials of client and go back and change it later. Whatever is comfortable for them. 
+	
 6. Intro Pitch  
 	- https://docs.google.com/presentation/d/1JkMb0tXfXKLtbVVZAsyhHENIw8cqi3ocCtQ3LEk9sW4/edit?usp=sharing 
+	
 7. Complexity/Robustness 
+	- I used the skills learned in class specifically the document automation. Initially I looked at docassemble but docassemble seemed to be too complicated for the project. I wanted to start with at least a viable product first to beta test
+	and that's why I went with QNA markup after I presented to the class in November. I also did look at the frequency of the variables and determined the order of questions based on that. 
 
 8. Impact & Efficiencies 
-
+	- It took me 6 hours to write my first draft of of the legal brief that I used as a sample and that resulted in 12 pages of information. This bot took me 10 minutes to fill out and I had 9 pages of the brief. All people need to add 
+	is more client information and country condition research specific to their client to complete the brief. 
+	- It took me 6 hours for my legal brief in September even with a sample but I couldn't fill in that sample like I could here
+	- It includes the formatting needed so no time wasted in pesky copy and pasting from other briefs and dealing with formatting issues 
+	
 9. Fit/Completeness 
-
+	- Link to code: 
+	- Users all said that this was a good idea and the second round of feedback was more specific changes I had to make and minor changes like variables to add. 
+	- A user even said this would have been beneficial to have in the beginning of the semester for the legal brief 
 10. Documentation 
-
+	- All documentation is uploaded to the github here: https://github.com/kishahraj/ctl_final-
 11. Real World Viability 
-
+	- I think before Real World Use I would want to flesh out the disclaimer more and double check with Ragini about the client information issues 
+	- Otherwise I think the code is producing a document with the answers filled in which was the objective 
 12. Sustainability 
+	- I plan on giving the link to Ragini if Professor Colarusso thinks it is ready to use. I have already discussed this with Ragini. I discussed it with her
+	on December 11
 
-13. Project Biography 
+
