@@ -1,21 +1,88 @@
-Framing/Goal of Project
+1. Framing/Goal of Project
 
-Link to Project Pitch 
-https://docs.google.com/presentation/d/1JkMb0tXfXKLtbVVZAsyhHENIw8cqi3ocCtQ3LEk9sW4/edit?usp=sharing 
--	In the project Pitch I identified the problem to solve. – immigration briefs are tedious to create at first and automation would make it easier. 
+      Link to Project Pitch 
+      https://docs.google.com/presentation/d/1JkMb0tXfXKLtbVVZAsyhHENIw8cqi3ocCtQ3LEk9sW4/edit?usp=sharing 
+          -In the project Pitch I identified the problem to solve. – immigration briefs are tedious to create at first and automation would make it easier. 
 
-a.	Brainstorm Mission/Goal statement for project: 
-•	"To help Immigration Clinic Students write legal briefs efficiently" 
-•	"To act as a secondary source of legal citation for Immigration Clinic Students interested in    an LGBTQ Asylum: Well-Founded Fear claim"
-•	"To act as an example of what a legal brief should look like" 
-•	“Use docassemble to automate an LGBTQ asylum brief” [Ultimately this was what was on the Project Pitch slide]
+      a.	Brainstorm Mission/Goal statement for project: 
+	      -"To help Immigration Clinic Students write legal briefs efficiently" 
+	      -"To act as a secondary source of legal citation for Immigration Clinic Students interested in    an LGBTQ Asylum: Well-Founded Fear claim"
+	      -"To act as an example of what a legal brief should look like" 
+	      -“Use docassemble to automate an LGBTQ asylum brief” [Ultimately this was what was on the Project Pitch slide]
       
-    At our meeting on October 1, 2019 Ragini suggested that the brief could also be used by organizations like Al Otra Lado who are fighting for immigrant rights at the border and need more brief samples. Visit their website here: https://alotrolado.org/who-we-are/. At first she was unsure if Al Otro Lado would also be users but she confirmed at the end of November that she would like to give Al Otro Lado access to this bot if Professor Colarusso gives the green light for the project’s application and use. Therefore, I had to modify my goal statement. 
+           At our meeting on October 1, 2019 Ragini suggested that the brief could also be used by organizations like Al Otra Lado who are fighting for immigrant rights at the border and need more brief samples. Visit their website here: https://alotrolado.org/who-we-are/. At first she was unsure if Al Otro Lado would also be users but she confirmed at the end of November that she would like to give Al Otro Lado access to this bot if Professor Colarusso gives the green light for the project’s application and use. Therefore, I had to modify my goal statement. 
 
-b.	Modified Brainstorm of Mission/Goal statement based on new potential users
-•	“To help Immigration practitioners and para-professionals access and cite to existing LGBTQ asylum cases in their brief writing” 
-•	“Streamlining the brief writing process for immigration practitioners and para-professionals by using a document automation bot to create an LGBTQ asylum brief with their clients information” 
+      b.	Modified Brainstorm of Mission/Goal statement based on new potential users
+	      -“To help Immigration practitioners and para-professionals access and cite to existing LGBTQ asylum cases in their brief writing” 
+	      -“Streamlining the brief writing process for immigration practitioners and para-professionals by using a document automation bot to create an LGBTQ asylum brief with their clients information” 
 
-FINAL GOAL: “A document automation bot that allows Immigration Clinic Students and Immigration Law Practitioners to create a LGBTQ asylum brief more efficiently” 
+      FINAL GOAL: “A document automation bot that allows Immigration Clinic Students and Immigration Law Practitioners to create a LGBTQ asylum brief more efficiently” 
 
-User personas to test – Immigration Clinic Students, My roommate who is now a phd student but worked with immigration law nonprofit in her undergrad, an attorney from De Novo – Lisa Weinberg 
+      User personas to test – Immigration Clinic Students, My roommate who is now a phd student but worked with immigration law nonprofit in her undergrad, an attorney from De Novo – Lisa Weinberg 
+      
+2. Research 
+
+      Existing Solutions or Lack of 
+      
+      - The Catholic Legal Immigration (a non-profit) has sample appellate brief samples up but there are none for asylum claims when they start out. This would be beneficial because a good legal brief 
+      brief would help so that the case does not go to the appellate level. 
+      - Clinic students have PDF versions of past briefs but can't edit those easily and can't customize the headings/formatting 
+      - https://www.law.com/legaltechnews/2019/07/16/bloomberg-law-teases-automated-brief-analyzer-in-beta-this-fall/?slreturn=20191116150653
+            Bloomberg Law is creating a brief analyzer but there haven't been a successful inclusion of bot generated briefs in any type of law per my research 
+            Why is this? 
+                  Cons: -Can't customize because clients have multiple unique details and circumstances that can't be captured with a non customizable brief generated by a bot 
+                        -concerns about the client information being uploaded 
+      
+      -Definition of Refugee: INA 101(a)(42)(A) The term "refugee" means any person who is outside any country of such person's nationality or, in the case of a person having no nationality, is outside any country in which such person last habitually resided, and who is unable or unwilling to return to, and is unable or unwilling to avail himself or herself of the protection of, that country because of persecution or a well-founded fear of persecution on account of race, religion, nationality, membership in a particular social group or political opinion
+      -Here, we are only focusing on particular social group asylum claims which is one of the reasons someone can be persecuted for. Specifically ones were the particular social group involves a sexual orientation 
+      - Need the following sections in the brief 
+            A. Meet Refugee Definition 
+            B. Timely Filing of Application 
+            C. Well Founded Fear of Persecution 
+                  1. Well Founded Fear Description
+                        a. Objectively Reasonable 
+                        b. Subjectively Reasonable 
+                        c. Fear is country-wide 
+                  2. Particular Social Group 
+                        a. Immutable 
+                        b. Socially Distinct 
+                        c. Particular 
+                  3. Nexus (harm will be because of membership in particular social group) 
+                  4. Government unwilling and unable to protect 
+            D. Discretion Factors 
+            
+      Consultation with Practictioners 
+      
+            - Spoke to Ragini in early November: There aren't any brief automation tools that exist. Practictioners usually share briefs via email but there is not a template that people can universally use 
+            - Spoke to Lisa from De Novo at the MLRI meeting that I went to for the LIT project but I asked her about this as well: She also agreed that there was not a tool similar to this and said that she would find the idea 
+            useful for her interns or students who need to learn how to write a brief for immigration law. She said the same as Ragini that now briefs are shared via email but there is not a way to streamline the process of 
+            creating a brief. She said formatting the brief is difficult because of the definition of a refugee and the different elements that need to be proved. 
+
+3. Ideation & Prototyping 
+
+      Considers and weighs the costs & benefits of multiple techinical solutions 
+            - Brief Automation Tool 
+                  Pros: 1. 2. 3. 4. 5.  
+                  Cons: 1. 2. 3. 4. 5.  
+      Creates prototyping only after considering at least three alternatives
+      
+4. User Testing 
+
+      
+5. Refinement 
+
+6. Intro Pitch  
+
+7. Complexity/Robustness 
+
+8. Impact & Efficiencies 
+
+9. Fit/Completeness 
+
+10. Documentation 
+
+11. Real World Viability 
+
+12. Sustainability 
+
+13. Project Biography 
