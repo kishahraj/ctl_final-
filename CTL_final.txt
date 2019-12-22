@@ -1,0 +1,38 @@
+Title: LGBTQ Asylum Brief 
+Author: Kishahnica Rajendran
+Before: <input type="hidden" name="name" value="LGBTQ Asylum Brief"/>
+<input type="hidden" name="docx_uri" value="https://kishahraj.github.io/ctl_final-/LetterBriefTemplate.docx"/>
+<h2 style="text-align:center;">LGBTQ Asylum Brief</h2>
+<p><b>This is a <a href="http://www.codingthelaw.org/">class project</a>. You should not rely on it as a source of legal information. It is likely incomplete.</b></p>
+<p>Answer the following questions to create a customized downloadable LGBTQ Asylum Brief (enter information that is your client specific but feel free to omit any confidential information or use client initials where necessary.</p>
+
+
+
+Q(Attorney_One): What is the name of the first attorney on the case? 
+X:
+	Q(Attorney_Two): Is there a second attorney on the case? If so put their name below or put n/a
+	X:
+		Q(DATE_): What is the date you are submitting the brief? 
+		X:
+			Q(Client_First_Name): What would you like to use for your client's first name in the brief? 
+			X:
+				Q(Client_Last_Name): What would you like to use for your client's last name in the brief? 
+				X:
+					Q(Home_Country): What is the client's home country? 
+					X:
+						Q(Arrival_Date): When did your client arrive in the country? 
+						X:
+							Q(Arrival_Airport): What airport did they arrive in? 
+							X:
+								Q(Arrival_City): What city is the airport in? 
+								X:
+									Q(Arrival_State): What state is the airport in? 
+									X:
+										Q(Sexual_Orientation): What is the client's sexual orientation?
+										X:
+											Q(Particular_Social_Group): What is the particular social group you will use in the claim? 
+											X:
+												Q(Pronoun): What pronoun does your client use? (Put down either, he/him his, she/her/hers, or they/them, theirs)
+												X:
+													Q(End): [javascript:submit2('http://colarusso.pythonanywhere.com/2docx/','POST','','','','json_doc','_blank')]
+								
