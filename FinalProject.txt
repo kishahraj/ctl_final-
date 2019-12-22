@@ -1,7 +1,7 @@
 Title: LGBTQ Asylum Brief 
 Author: Kishahnica Rajendran
 Before: <input type="hidden" name="name" value="LGBTQ Asylum Brief"/>
-<input type="hidden" name="docx_uri" value="https://github.com/kishahraj/ctl_final-/blob/master/LetterBriefTemplate.docx"/>
+<input type="hidden" name="docx_uri" value="https://kishahraj.github.io/ctl_final-/LetterBriefTemplate.docx"/>
 <h2 style="text-align:center;">LGBTQ Asylum Brief</h2>
 <p><b>This is a <a href="http://www.codingthelaw.org/">class project</a>. You should not rely on it as a source of legal information. It is likely incomplete.</b></p>
 <p>Answer the following questions to create a customized downloadable LGBTQ Asylum Brief (enter information that is your client specific but feel free to omit any confidential information or use client initials where necessary.</p>
